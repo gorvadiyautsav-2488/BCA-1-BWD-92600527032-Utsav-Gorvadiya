@@ -1,0 +1,15 @@
+.box{
+    width: 1500px;
+    height: 1600px;
+    background-color: blue;
+    animation-duration: 5s;
+    animation-name: boxanimation;
+}
+
+@keyframes boxanimation{
+    0% {background-color:aqua}
+    25% {background-color: blueviolet;}
+    50%{background-color: brown;}
+    75%{background-color: red;}
+    100%{background-color: blue;}
+}
